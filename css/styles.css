@@ -10,6 +10,7 @@ header {
   background: #372d23;
   justify-content: space-between;
   align-items: center;
+  font-family: "Inter", sans-serif;
   position: fixed;
   max-width: inherit;
   width: inherit;
@@ -46,14 +47,14 @@ li {
 .textbutton {
   position: absolute;
   top: 50%;
-  /* transform: translateY(-50%); */
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
 }
 
 h2 {
   color: #fff;
   text-shadow: 0px 6px 4px #372d23;
+  font-family: "Inter", sans-serif;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
@@ -61,7 +62,6 @@ h2 {
 }
 
 .button1 {
-  display: flex;
   height: 52px;
   padding: 12px 38px;
   justify-content: center;
@@ -130,6 +130,7 @@ article {
 
 h3 {
   color: #372d23;
+  font-family: "Inter", sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 48px;
@@ -138,6 +139,7 @@ h3 {
 .section2_text {
   color: #855c52;
   text-align: center;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -176,7 +178,7 @@ footer {
   padding: 32px 300px;
   justify-content: space-between;
   align-items: flex-start;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Inter", sans-serif;
   gap: 416px;
   background: #372d23;
 }
